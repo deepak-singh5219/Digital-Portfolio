@@ -1,0 +1,132 @@
+  
+
+  .app__blog-item {
+    width: 60%;
+    flex-direction: column;
+    margin: 4rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media screen and (min-width: 2000px) {
+      width: 600px;
+      padding: 1.25rem;
+      border-radius: 0.75rem;
+    }
+
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+      margin: 1rem;
+    }
+  }
+
+
+.app__blog-img {
+  width: 100%;
+
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+
+  img {
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      margin: 1rem;
+    }
+    
+  }
+
+  @media screen and (min-width: 2000px) {
+    height: 350px;
+  }
+}
+
+
+.app__blog-content {
+  padding: 0.5rem;
+  width: 100%;
+  flex-direction: column;
+
+
+  .author__data{
+
+    margin-top: 1rem;
+    line-height: 1;
+
+    @media screen and (min-width: 2000px) {
+      margin-top:3rem
+    }
+    @media screen and (min-width: 700px) {
+      margin-top: 1rem;
+    }
+    
+  }
+
+  
+}
+
+
+
+.carousel__item{
+  width:80%;
+}
+
+.swiper {
+  width: 70%;
+}
+
+@media only screen and (max-width:1000px)
+{
+  .swiper{
+    width:100%;
+  }
+
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #EDF2F8;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  
+  object-fit: cover;
+}
+
+.swiper-slide .profile__img{
+  width:50px;
+  border-radius: 100%;
+  margin:1rem;
+}
