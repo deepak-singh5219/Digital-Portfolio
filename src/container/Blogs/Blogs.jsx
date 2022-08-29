@@ -79,6 +79,6 @@ const Blogs = () => {
   );
 };
 
-export default BlogWrap(MotionWrap(Blogs, 'app__works'));
+export default BlogWrap(MotionWrap(Blogs, 'app__works blogs__container'),'blogs');
  
 
