@@ -5,6 +5,7 @@ import Skills from './Skills/Skills';
 import Testimonial from './Testimonial/Testimonial';
 import Work from './Work/Work';
 import Blogs from './Blogs/Blogs';
+import AnimatePage from './AnimatePage/AnimatePage';
 
 export {
   About,
@@ -13,5 +14,6 @@ export {
   Skills,
   Testimonial,
   Work,
-  Blogs
+  Blogs,
+  AnimatePage,
 };
